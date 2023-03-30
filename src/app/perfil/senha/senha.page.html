@@ -1,0 +1,44 @@
+<ion-header mode="ios">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>ALTERAR SENHA</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-list>
+
+    <ion-label for="password">Senha</ion-label>
+    <ion-item>
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <ion-input type="password" id="password" placeholder="Senha"></ion-input>
+      <ion-icon name="eye-off-outline"></ion-icon>
+    </ion-item>
+
+    <ion-label for="newPassword">Nova senha</ion-label>
+    <ion-item>
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <ion-input type="password" id="newPassword" placeholder="Nova senha"></ion-input>
+      <ion-icon name="eye-off-outline"></ion-icon>
+    </ion-item>
+
+    <ion-label for="newPasswordRepeat">Confirme a nova senha</ion-label>
+    <ion-item>
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <ion-input type="password" id="newPasswordRepeat" placeholder="Confirme a nova senha"></ion-input>
+      <ion-icon name="eye-off-outline"></ion-icon>
+    </ion-item>
+
+  </ion-list>
+
+  <div class="alignCenter">
+    <ion-button>Alterar</ion-button>
+  </div>
+
+</ion-content>
