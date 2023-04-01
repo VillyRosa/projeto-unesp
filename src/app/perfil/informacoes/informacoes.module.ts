@@ -8,12 +8,15 @@ import { InformacoesPageRoutingModule } from './informacoes-routing.module';
 
 import { InformacoesPage } from './informacoes.page';
 
+import { BrMaskerModule } from 'br-mask';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InformacoesPageRoutingModule
+    InformacoesPageRoutingModule,
+    BrMaskerModule
   ],
   declarations: [InformacoesPage]
 })
