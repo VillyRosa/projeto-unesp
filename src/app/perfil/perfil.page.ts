@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilPage implements OnInit {
 
-  sair: boolean = false;
+  leave: boolean = false;
 
   constructor() {}
 
   ngOnInit() {
   }
 
-  openSair() {
-    this.sair = !this.sair;
+  toggleLeave() {
+    return this.leave = !this.leave;
   }
 
 }
